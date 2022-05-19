@@ -6,7 +6,7 @@
 `matplotlib==3.1.3`
 # 第一步，先clone我的代码
 **方法一**：直接download_zip，然后解压  
-**方法二**：cmd里输入`git clone https://github.com/AIHHU/Numpy-DNN`
+**方法二**：cmd里输入`git clone https://github.com/AIHHU/Numpy-DNN`运行，然后解压即可
 # 第二步，配环境
 ## :grimacing:我觉得这俩大多数人都有，如果没有，直接cmd里打
 `cd Numpy-DNN-main`  
