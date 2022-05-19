@@ -5,6 +5,7 @@
 `numpy==1.19.2`  
 `matplotlib==3.1.3`
 # 第一步，先clone我的代码
+cmd里输入`git clone `
 **方法一**：直接download_zip
 **方法二**：cmd里这么输  
 `numpy==1.19.2`
