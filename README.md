@@ -24,3 +24,5 @@
 可以在命令行中看到训练的**loss日志**，训练结束后，可以看到**loss曲线的window**  
 
 :smiley:最终Loss曲线我也上传在了sample文件夹内，感兴趣可以看看
+# 如果您单纯地对线性回归感兴趣
+可以访问我的AI studio项目：[numpy手撕线性回归](https://www.baidu.com/)
