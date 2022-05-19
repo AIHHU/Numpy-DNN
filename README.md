@@ -25,4 +25,4 @@
 
 :smiley:最终Loss曲线我也上传在了sample文件夹内，感兴趣可以看看
 # 如果您单纯地对线性回归感兴趣
-可以访问我的AI studio项目：[numpy手撕线性回归](https://www.baidu.com/)
+可以访问我的AI studio项目：[numpy手撕线性回归](https://www.baidu.com/](https://aistudio.baidu.com/aistudio/projectdetail/4010836)
