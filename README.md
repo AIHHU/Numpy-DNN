@@ -21,8 +21,21 @@
 `python DNN_demo.py`  
 :smiling_imp:**注意**:使用**深度神经网络处理线性回归**的意思是，使用了**非线性结构**去拟合**线性**的数据集，因为这里我只写了一个线性数据的生成脚本，所以这里只做测试用，证明所写深度神经网络是**有效**的
 # 第四步，查看结果
-可以在命令行中看到训练的**loss日志**，训练结束后，可以看到**loss曲线的window**  
-
+训练结束后，可以看到**loss曲线的window**，过程中所有的输出日志，已写入当前文件夹下的**日志文件**，运行结束后查看即可  
+如果您希望在cmd中直接查看输出日志，在demo文件中如下注释即可：  
+```
+if __name__ == "__main__":
+    #stdout_backup = sys.stdout
+    #log_file = open("message_DNN.log", "w")
+    #sys.stdout = log_file
+    data=randDataGenerator(num_sample=num_sample,low=low,high=high)
+    dataset=dataset_generator(data,weight=weight,bias=bias,no_zenguang=True) #其中有一个维度为增广维度
+    model=Linear_regression(dataset)
+    model.train()
+    #log_file.close()
+    #sys.stdout = stdout_backup
+    model.visualize_loss()
+```
 :smiley:最终Loss曲线我也上传在了sample文件夹内，感兴趣可以看看
 # 如果您单纯地对线性回归感兴趣
 可以访问我的AI studio项目：[Numpy手撕线性回归](https://aistudio.baidu.com/aistudio/projectdetail/4010836)  
